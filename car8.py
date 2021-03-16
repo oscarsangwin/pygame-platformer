@@ -26,6 +26,7 @@ obstacles = [
 
 def update_screen():
     screen.fill(WHITE)
+    screen.blit(background_img, (0, 0))
     for obstacle in obstacles:
         pg.draw.rect(screen, GREEN, obstacle)
     myPlayer.draw()
@@ -33,7 +34,7 @@ def update_screen():
     pg.display.update()
 
 def draw_text(text, x, y):
-    textsurface = myfont.render(text, True, (0, 0, 0))
+    textsurface = myfont.render(text, True, WHITE)
     screen.blit(textsurface, (x, y))
 
 class Player():
@@ -174,21 +175,39 @@ class Player():
         # CHECK IF TOUCHING A SURFACE (for debugging)
         if self.check_collision():
             print('this is bad')
-        else:
-            pass
 
+        # print(int(self.y_vel))
+
+# LOAD SCREEN
+print('Loading screen...')
 pg.init()
 pg.display.set_caption('Platformer 8')
 screen = pg.display.set_mode([WIDTH, HEIGHT])
+print('...Done!')
 
+# LOAD MUSIC
+print('Loading music...')
+music_file = './Sounds/starlight.wav'
+pg.mixer.music.load(music_file)
+print('...Done!')
+
+# LOAD FONTS
 print('Loading fonts... (this may take a few seconds)')
 pg.font.init()
-myfont = pg.font.SysFont(None, 30)
+myfont = pg.font.SysFont('microsoftsansserifttf', 20)
+print('...Done!')
+
+# LOAD IMAGES
+print('Loading images...')
+background_img = pg.image.load('./Images/geometric.jpeg')
+background_img = pg.transform.scale(background_img, (WIDTH, HEIGHT))
 print('...Done!')
 
 clock = pg.time.Clock()
 
-myPlayer = Player()
+myPlayer = Player(color=WHITE)
+
+pg.mixer.music.play(-1)
 
 running = True
 while running:
