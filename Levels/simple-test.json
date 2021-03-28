@@ -1,0 +1,653 @@
+{
+  "options": {},
+  "levels": [
+    {
+      "options": {
+        "spawn": [
+          640,
+          410
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "block",
+          "x": 0,
+          "y": 400,
+          "width": 320,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 380,
+          "y": 300,
+          "width": 320,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 0,
+          "y": 200,
+          "width": 320,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 0,
+          "y": 100,
+          "width": 320,
+          "height": 30
+        },
+        {
+          "type": "goal",
+          "x": 10,
+          "y": 37,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "type": "kill",
+          "x": 10,
+          "y": 385,
+          "width": 200,
+          "height": 20
+        },
+        {
+          "type": "text",
+          "x": 385,
+          "y": 95,
+          "value": "Welcome ! ! !",
+          "size": "large"
+        },
+        {
+          "type": "text",
+          "x": 385,
+          "y": 130,
+          "value": "This is level 1 of my very first"
+        },
+        {
+          "type": "text",
+          "x": 40,
+          "y": 355,
+          "value": "Red kills you!"
+        },
+        {
+          "type": "text",
+          "x": 415,
+          "y": 250,
+          "value": "Purple makes you bounce!"
+        },
+        {
+          "type": "text",
+          "x": 10,
+          "y": 135,
+          "value": "^ And each level, you want"
+        },
+        {
+          "type": "text",
+          "x": 10,
+          "y": 160,
+          "value": "   to get to the yellow goal!"
+        },
+        {
+          "type": "text",
+          "x": 385,
+          "y": 150,
+          "value": "platfomer . . ."
+        },
+        {
+          "type": "bounce",
+          "x": 430,
+          "y": 285,
+          "width": 200,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          30,
+          50
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "block",
+          "x": 0,
+          "y": 250,
+          "width": 100,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 380,
+          "y": 300,
+          "width": 320,
+          "height": 30
+        },
+        {
+          "type": "text",
+          "x": 200,
+          "y": 95,
+          "value": "Press 'r' to reset if you need to!",
+          "size": "large"
+        },
+        {
+          "type": "text",
+          "x": 274,
+          "y": 331,
+          "value": "[pro jump]"
+        },
+        {
+          "type": "goal",
+          "x": 615,
+          "y": 240,
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          185
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "block",
+          "x": 0,
+          "y": 250,
+          "width": 100,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 200,
+          "y": 250,
+          "width": 100,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 400,
+          "y": 250,
+          "width": 100,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 600,
+          "y": 250,
+          "width": 100,
+          "height": 30
+        },
+        {
+          "type": "kill",
+          "x": 0,
+          "y": 470,
+          "width": 700,
+          "height": 30
+        },
+        {
+          "type": "text",
+          "value": "R u a pro gamer or not then?",
+          "size": "large",
+          "x": 167,
+          "y": 152
+        },
+        {
+          "type": "goal",
+          "x": 684,
+          "y": 190,
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          185
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "block",
+          "x": 0,
+          "y": 200,
+          "width": 100,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 284,
+          "y": 335,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "type": "block",
+          "x": 526,
+          "y": 335,
+          "width": 500,
+          "height": 3
+        },
+        {
+          "type": "block",
+          "x": 271,
+          "y": 95,
+          "width": 100,
+          "height": 3
+        },
+        {
+          "type": "block",
+          "x": 271,
+          "y": 0,
+          "width": 3,
+          "height": 95
+        },
+        {
+          "type": "block",
+          "x": 674,
+          "y": 224,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "type": "block",
+          "x": 516,
+          "y": 138,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "type": "kill",
+          "x": 0,
+          "y": 470,
+          "width": 700,
+          "height": 30
+        },
+        {
+          "type": "goal",
+          "x": 291,
+          "y": 24,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "type": "text",
+          "x": 256,
+          "y": 152,
+          "size": "large",
+          "value": "Bet you can't complete it"
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          470
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "bounce",
+          "x": 93,
+          "y": 495,
+          "width": 50,
+          "height": 5
+        },
+        {
+          "type": "block",
+          "x": 173,
+          "y": 340,
+          "width": 30,
+          "height": 170
+        },
+        {
+          "type": "kill",
+          "x": 173,
+          "y": 310,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "type": "bounce",
+          "x": 293,
+          "y": 495,
+          "width": 50,
+          "height": 5
+        },
+        {
+          "type": "block",
+          "x": 373,
+          "y": 330,
+          "width": 30,
+          "height": 170
+        },
+        {
+          "type": "kill",
+          "x": 373,
+          "y": 300,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "type": "bounce",
+          "x": 493,
+          "y": 495,
+          "width": 50,
+          "height": 5
+        },
+        {
+          "type": "block",
+          "x": 573,
+          "y": 310,
+          "width": 30,
+          "height": 190
+        },
+        {
+          "type": "kill",
+          "x": 573,
+          "y": 280,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "type": "text",
+          "value": "Difficulty:",
+          "size": "large",
+          "x": 307,
+          "y": 69
+        },
+        {
+          "type": "text",
+          "value": "Easy",
+          "x": 137,
+          "y": 241
+        },
+        {
+          "type": "text",
+          "value": "Hard",
+          "x": 344,
+          "y": 236
+        },
+        {
+          "type": "text",
+          "value": "INSANE",
+          "x": 542,
+          "y": 212
+        },
+        {
+          "type": "goal",
+          "width": 100,
+          "height": 50,
+          "x": 603,
+          "y": 469
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          470
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "goal",
+          "width": 100,
+          "height": 50,
+          "x": 603,
+          "y": 469
+        },
+        {
+          "type": "block",
+          "x": 335.0,
+          "width": 30,
+          "y": 0,
+          "height": 500
+        },
+        {
+          "type": "text",
+          "value": "Press 's' to skip!",
+          "size": "large",
+          "x": 50,
+          "y": 175
+        },
+        {
+          "type": "text",
+          "value": "Press 'b' to go back!",
+          "size": "large",
+          "x": 400,
+          "y": 175
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          40
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "goal",
+          "width": 50,
+          "height": 50,
+          "x": 640,
+          "y": 40
+        },
+        {
+          "type": "block",
+          "width": 5,
+          "height": 5,
+          "x": 168,
+          "y": 409
+        },
+        {
+          "type": "block",
+          "width": 5,
+          "height": 5,
+          "x": 284,
+          "y": 308
+        },
+        {
+          "type": "block",
+          "width": 5,
+          "height": 5,
+          "x": 460,
+          "y": 208
+        },
+        {
+          "type": "block",
+          "x": 0,
+          "y": 100,
+          "height": 30,
+          "width": 100
+        },
+        {
+          "type": "kill",
+          "x": 0,
+          "y": 470,
+          "width": 700,
+          "height": 30
+        },
+        {
+          "type": "kill",
+          "x": 261,
+          "y": 223,
+          "width": 5,
+          "height": 5
+        },
+        {
+          "type": "kill",
+          "x": 375,
+          "y": 220,
+          "width": 5,
+          "height": 5
+        },
+        {
+          "type": "text",
+          "x": 438,
+          "y": 337,
+          "size": "large",
+          "value": "Still easy so far :)"
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          460
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "goal",
+          "width": 50,
+          "height": 50,
+          "x": 640,
+          "y": 440
+        },
+        {
+          "type": "bounce",
+          "width": 30,
+          "height": 50,
+          "x": 85,
+          "y": 490
+        },
+        {
+          "type": "block",
+          "width": 30,
+          "height": 500,
+          "x": 128,
+          "y": 276
+        },
+        {
+          "type": "block",
+          "width": 30,
+          "height": 500,
+          "x": 591,
+          "y": 276
+        },
+        {
+          "type": "block",
+          "width": 30,
+          "height": 4,
+          "x": 263,
+          "y": 276
+        },
+        {
+          "type": "block",
+          "width": 30,
+          "height": 4,
+          "x": 527,
+          "y": 276
+        },
+        {
+          "type": "kill",
+          "width": 433,
+          "height": 485,
+          "x": 158,
+          "y": 315
+        },
+        {
+          "type": "text",
+          "size": "large",
+          "value": "Don't quit ! ! !",
+          "x": 283,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          40
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "block",
+          "x": 0,
+          "y": 100,
+          "width": 400,
+          "height": 500
+        },
+        {
+          "type": "kill",
+          "x": 519,
+          "y": 100,
+          "width": 700,
+          "height": 250
+        },
+        {
+          "type": "kill",
+          "x": 400,
+          "y": 470,
+          "width": 300,
+          "height": 30
+        },
+        {
+          "type": "block",
+          "x": 519,
+          "y": 410,
+          "width": 281,
+          "height": 4
+        },
+        {
+          "type": "text",
+          "x": 413,
+          "y": 190,
+          "value": "Annoying?"
+        },
+        {
+          "type": "goal",
+          "x": 692,
+          "y": 365,
+          "width": 20,
+          "height": 37
+        }
+      ]
+    },
+    {
+      "options": {
+        "spawn": [
+          40,
+          300
+        ]
+      },
+      "obstacles": [
+        {
+          "type": "bounce",
+          "x": 0,
+          "y": 470,
+          "width": 700,
+          "height": 30
+        },
+        {
+          "type": "text",
+          "size": "large",
+          "value": "You completed all levels so far! More coming soon!",
+          "x": 7,
+          "y": 123
+        },
+        {
+          "type": "text",
+          "value": "Thanks for playing, by NEVWIN",
+          "x": 410,
+          "y": 173
+        }
+      ]
+    }
+  ]
+}
